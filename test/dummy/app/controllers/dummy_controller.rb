@@ -12,12 +12,4 @@ class DummyController < ActionController::Base
   def suffix
     render plain: params[:id]
   end
-
-  def engine_es
-    render plain: blorgh_es.posts_path
-  end
-
-  def engine
-    render plain: blorgh.posts_path
-  end
 end
