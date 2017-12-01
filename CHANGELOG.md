@@ -5,6 +5,7 @@
 * [BUGFIX] Verify host path consistency by default ([#91](https://github.com/enriclluelles/route_translator/issues/91), [#171](https://github.com/enriclluelles/route_translator/issues/171))
 * [FEATURE] Remove Engine support ([#166](https://github.com/enriclluelles/route_translator/issues/91), [#166](https://github.com/enriclluelles/route_translator/issues/172))
 * [FEATURE] Remove the option to verify host path consistency
+* [FEATURE] Add Rails 5.2.0.beta2 compatibility
 * [ENHANCEMENT] Avoid duplicate routes when using host_locales (#87)
 * [ENHANCEMENT] Update development dependencies
 
