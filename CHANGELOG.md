@@ -7,6 +7,11 @@
 * [FEATURE] Remove the option to verify host path consistency
 * [FEATURE] Add Rails 5.2.0.beta2 compatibility
 * [ENHANCEMENT] Avoid duplicate routes when using host_locales (#87)
+
+## 5.5.2 / 2017-12-27
+
+* [BUGFIX] Fix regression with translations containing slashes ([#179](https://github.com/enriclluelles/route_translator/pull/179))
+* [ENHANCEMENT] Test against latest Ruby versions
 * [ENHANCEMENT] Update development dependencies
 
 ## 5.5.1 / 2017-11-14

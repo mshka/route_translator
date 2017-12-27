@@ -34,7 +34,8 @@ module RouteTranslator
           def translate_string(str, locale, scope)
             translated_resource = translate_resource(str, locale.to_s, scope)
 
-            CGI.escape translated_resource
+            # restore URI.escape behaviour to avoid breaking change
+            CGI.escape(translated_resource).gsub('%2F', '/')
           end
         end
 

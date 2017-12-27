@@ -9,6 +9,10 @@ class DummyController < ActionController::Base
     render plain: show_path
   end
 
+  def slash
+    render plain: request.env['PATH_INFO']
+  end
+
   def suffix
     render plain: params[:id]
   end
